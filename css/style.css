@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica;
+    color: seashell;
+    background-color: black;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Header */
+header {
+    position: fixed;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+}
+.headerLogoPic {
+    float: left;
+}
+
+.headerLogoPic img {
+    margin-left: 10px;
+    height: 50px;
+}
+
+.headerNavbar {
+    float: right;
+}
+
+.headerNavbar ul {
+    display: inline-flex;
+    font-size: 22px;
+    list-style-type: none;
+    text-decoration: underline;
+}
+
+.headerNavbar ul li {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.headerNavbar ul li a {
+    color: seashell;
+}
+
+/* Main */
+
+.mainMission {
+    position: relative;
+    top: 70px;
+    background-image: url("../img/img-mission-background.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 90%;
+    height: 700px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
